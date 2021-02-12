@@ -1,0 +1,30 @@
+.nav-wrapper {
+    background-color: black;
+}
+
+#search {
+    background-color: white;
+}
+
+#title {
+    font-family: 'Bodoni Moda', serif;
+    font-size: xx-large;
+    color: gold;
+}
+body {
+    background: url(fender_guitar_unsplash.jpg);
+    background-size: 100%;
+}
+
+#nav-mobile {
+    background: gold;
+    font-family: 'Pangolin', cursive;
+    font-size: small;
+}
+
+p {
+    font: white;
+    font-family: 'Pangolin', cursive;
+    font-size: medium;
+}
+

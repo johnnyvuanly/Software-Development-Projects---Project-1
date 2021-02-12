@@ -3,19 +3,51 @@
     <head>
         <title>Nirvana Guitar Tabs</title>
         <script async defer src="Nirvana_Tabs.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <!-- Import Google Icon Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Pangolin&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         <link rel="stylesheet" type="text/css" href="Nirvana_Style.css">
         
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+
+        
     </head>
-<body>
-    <h1>Soaked In Bleach Tabs</h1>
 
-    <div>"Come as you are, as you were, as I want you to be" and learn all your Nirvana guitar and bass needs.</div>
+    <body>
+        <nav>
+            <div class="nav-wrapper">
+            <a href="#" id="title" class="brand-logo right">Soaked in Bleach Tabs</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="https://www.songsterr.com/">More Guitar Tabs</a></li>
+            </ul>
+            </div>
+        </nav>
+    
+        <nav>
+            <div class="nav-wrapper">
+            <form>
+                <div class="input-field">
+                <input id="search" type="search" required placeholder="Search">
+                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                <i class="material-icons">close</i>
+                </div>
+            </form>
+            </div>
+        </nav>
+        
+        <p>"Come as you are, as you were, as I want you to be." Learn 
+            Nirvana guitar and bass tabs.
+        </p>
+    
+        <!--JavaScript at end of body for optimized loading-->
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+         
+    </body>
 
-    <label for="song_search">Enter the name of a Nirvana song:</label>
-    <input id="song_search" name="song_search">
-
-    <br>
-    <button id="search" type="button">Search</button>
-
-</body>
 </html>
