@@ -11,9 +11,12 @@
     font-size: xx-large;
     color: gold;
 }
-body {
-    background: url(fender_guitar_unsplash.jpg);
+html {
+    background-image: url("fender_guitar_unsplash.jpg");
+    height: 100%;
+    width: 100%;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 #nav-mobile {
